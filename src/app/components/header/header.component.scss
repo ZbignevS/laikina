@@ -1,0 +1,50 @@
+@import "../../../assets/colors.scss";
+
+nav {
+    display: inline-block;
+    padding-top: 24px;
+    margin-left: 100px;
+    padding-left: 42px;    
+    .logo {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .nav-link {
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 40px;
+        .menu-item {
+            text-decoration: none;
+            color: $secondary;
+        }
+    }
+}
+
+.sign-container {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 200px;
+    .sign-up {
+        background-color: $secondary;
+        border: none;
+        color: $primary;
+        width: 130px;
+        height: 45px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+    .sign-in {
+        background-color: transparent;
+        border: none;
+        color: $secondary;
+        width: 80px;
+        height: 45px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+.underline {
+    text-decoration: underline;
+}
